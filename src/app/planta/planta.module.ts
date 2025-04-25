@@ -6,6 +6,7 @@ import { PlantaComponent } from './planta.component';
   imports: [
     CommonModule
   ],
-  declarations: [PlantaComponent]
+  declarations: [PlantaComponent],
+  exports: [PlantaComponent],
 })
 export class PlantaModule { }
